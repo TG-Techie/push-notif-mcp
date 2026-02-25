@@ -13,7 +13,7 @@ Drag the `.mcpb` into Claude Desktop or any MCPB-compatible client of your choic
 ## Specification
 
 
-> NOTE: This project was generated from an NLSpec (included) and was wholey implemented (or "dark-complied") by a Claude model (code formatting not included).
+> NOTE: This project was generated from an NLSpec (included) and was wholly implemented (or "dark-complied") by a Claude model (code formatting not included) as an experiment/initial evaluation of the NLSpec approach (see below). Also
 
 
 An [NLSpec (as la the @TG-Techie flavor)](https://github.com/TG-Techie/NLSpec-Spec) is a prescriptive, generative specification written in natural language — precise enough to derive a faithful implementation from, flexible enough to leave genuine implementation choices to the builder. For background on the approach, see the [strongdm/attractor](https://github.com/strongdm/attractor) repo where the concept was developed in practice.

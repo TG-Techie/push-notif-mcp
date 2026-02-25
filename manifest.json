@@ -1,0 +1,29 @@
+{
+  "manifest_version": "0.3",
+  "name": "push-notification",
+  "version": "0.1.0",
+  "display_name": "Push Notification",
+  "description": "Send push notifications to the user. Alerts when tasks complete, input is needed, or something requires attention.",
+  "author": {
+    "name": "@TG-Techie"
+  },
+  "license": "MIT",
+  "compatibility": {
+    "platforms": ["darwin"]
+  },
+  "tools": [
+    {
+      "name": "send_notification",
+      "description": "Send a push notification to the user. Use this to alert the user when a long-running task completes, when input is needed, or when something requires their attention."
+    }
+  ],
+  "server": {
+    "type": "node",
+    "entry_point": "dist/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": ["${__dirname}/dist/index.js"],
+      "env": {}
+    }
+  }
+}

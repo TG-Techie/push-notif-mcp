@@ -1,0 +1,15 @@
+src/
+*.ts
+!dist/**
+tsconfig.json
+.git/
+.gitignore
+*.md
+!README.md
+.mcpbignore
+*.nlspec.md
+node_modules/
+pnpm-lock.yaml
+pnpm-workspace.yaml
+package-lock.json
+yarn.lock
